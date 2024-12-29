@@ -85,7 +85,7 @@ const selecionados = [casais[0], casais[1], casais[4]];
 console.log("Os casais selecionados são:", selecionados);
 
 // Filtrando casal com o nome "Lucas"
-const casalLucas = casais.filter((casal) => casal.nome.includes("Lucas"));
+const casalLucas = casais.filter((casal) => casal.nome.indexOf("Lucas") !== -1);
 console.log("Casal com o nome Lucas:", casalLucas);
 
 // *** Intermediário: Trabalhando com Tipos e Interfaces ***
