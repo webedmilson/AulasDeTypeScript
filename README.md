@@ -1,83 +1,54 @@
-# Estudos de TypeScript com Generics e Estruturas de Dados
+# TypeScript Aula - Exemplos Práticos
 
-Este repositório contém exemplos práticos de estudos realizados em **TypeScript**, abordando conceitos como:
-- **Interfaces**
-- **Generics**
-- Estruturação de dados dinâmicos
-- Exemplos práticos com Médicos, Engenheiros, e outras profissões.
+Este repositório contém exemplos práticos organizados do mais avançado para o mais básico, com o objetivo de ensinar e demonstrar o uso de recursos do TypeScript. Cada trecho de código está comentado para facilitar o entendimento.
 
-## 📚 Conteúdo
+## Sobre o Autor
+**Edmilson Rodrigues Julio**
 
-### 1. Interface Básica
-- Estruturação de objetos com propriedades fixas.
+GitHub: [webedmilson](https://github.com/webedmilson)
 
-### 2. Uso de Generics
-- Criação de interfaces reutilizáveis com campos genéricos.
-- Aplicação de Generics em funções para maior flexibilidade.
+## Estrutura dos Exemplos
 
-### 3. Exemplos Práticos
-- Cadastro de médicos com nome, CRM e profissão.
-- Cadastro de engenheiros com nome, CREA e especialidade.
-- Reutilização de código com interfaces genéricas.
+### 1. Avançado: Interfaces Genéricas e Herança
+- Uso de interfaces genéricas para estruturas de dados flexíveis.
+- Combinação de tipos com o operador `&`.
+- Interfaces com herança múltipla para composição de dados complexos.
 
-## 🚀 Como Executar o Código
+### 2. Intermediário: Manipulação de Tipos e Arrays
+- Uso de propriedades opcionais em tipos.
+- Trabalhando com listas de objetos e filtragem de dados.
+- Métodos como `filter`, `slice` e manipulação de strings.
 
-1. Certifique-se de ter o **Node.js** instalado.
-2. Clone o repositório:
+### 3. Básico: Funções e Condicionais
+- Funções com parâmetros obrigatórios e opcionais.
+- Implementação de uma calculadora simples com `switch`.
+- Classes e encapsulamento de dados com `private`.
+
+## Como Usar
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/webedmilson/typescript-aula.git
    ```
-3. Navegue até o diretório do projeto:
+2. Instale o TypeScript globalmente, caso ainda não tenha instalado:
    ```bash
-   cd nome-do-repositorio
+   npm install -g typescript
    ```
-4. Instale as dependências (se aplicável):
+3. Compile o arquivo TypeScript:
    ```bash
-   npm install
+   tsc nome-do-arquivo.ts
    ```
-5. Compile os arquivos TypeScript (se necessário):
-   ```bash
-   tsc
-   ```
-6. Execute o arquivo compilado:
+4. Execute o código JavaScript gerado:
    ```bash
    node nome-do-arquivo.js
    ```
 
-## 🛠️ Tecnologias Utilizadas
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com sugestões de melhorias ou novos exemplos.
 
-- [TypeScript](https://www.typescriptlang.org/) - Tipagem estática e robusta para JavaScript.
-- [Node.js](https://nodejs.org/) - Execução de JavaScript no servidor.
-
-## 📂 Estrutura do Projeto
-```
-📁 src
-├── interfaces.ts   # Exemplos de interfaces básicas e genéricas
-├── exemplos.ts     # Casos práticos com médicos e engenheiros
-└── utils.ts        # Funções auxiliares com Generics
-```
-
-## 🤝 Contribuições
-Contribuições são bem-vindas! Se você deseja melhorar o código ou adicionar exemplos, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch com sua feature:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Commit suas mudanças:
-   ```bash
-   git commit -m 'Adicionando nova feature'
-   ```
-4. Envie para a branch principal:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request.
-
-## 📝 Licença
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usar e modificar como quiser.
+## Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Feito com ❤️ por [Edmilson Rodrigues Julio](https://github.com/webedmilson).
+Aprenda TypeScript com exemplos claros e bem documentados. Boa programação! 🚀
+
